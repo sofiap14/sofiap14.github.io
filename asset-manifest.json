@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.40772c7e.css",
-    "main.js": "/static/js/main.f7b625a6.js",
-    "static/media/sofia-panuganti-resume.pdf": "/static/media/sofia-panuganti-resume.2867f14131f8685d34a1.pdf",
+    "main.js": "/static/js/main.c9ba7979.js",
+    "static/media/sofia-panuganti-resume.pdf": "/static/media/sofia-panuganti-resume.59d202781f1166f22b6f.pdf",
     "index.html": "/index.html",
     "main.40772c7e.css.map": "/static/css/main.40772c7e.css.map",
-    "main.f7b625a6.js.map": "/static/js/main.f7b625a6.js.map"
+    "main.c9ba7979.js.map": "/static/js/main.c9ba7979.js.map"
   },
   "entrypoints": [
     "static/css/main.40772c7e.css",
-    "static/js/main.f7b625a6.js"
+    "static/js/main.c9ba7979.js"
   ]
 }
