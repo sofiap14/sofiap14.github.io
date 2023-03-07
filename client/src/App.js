@@ -33,7 +33,7 @@ function App() {
             </li>
             <li className="text-[14px] lg:text-lg text-gray-500">
               @ JNTU <br />
-              2018 - 2019
+              2019
             </li>
           </ul>
         </div>

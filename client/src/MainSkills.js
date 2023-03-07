@@ -12,7 +12,7 @@ export default function MainSkills() {
   <div className="m-7 text-sm grid grid-cols-3 gap-8 max-w-sm md:max-w-md md:text-lg mt-6 md:grid md:grid-cols-3 md:gap-14 md:mx-24 lg:flex md:flex lg:text-lg lg:mx-52 lg:grid lg:grid-cols-3 lg:gap-24">
     <div>Problem solving</div>
     <div>
-      JavaScript, HTML, <br /> CSS, React
+      JavaScript, HTML, <br /> CSS, ReactJs
     </div>
     <div>
       C, C++, Java, <br /> Python

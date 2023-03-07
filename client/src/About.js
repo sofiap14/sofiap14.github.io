@@ -88,8 +88,8 @@ export default function AboutMe() {
           hackathons. I love to connect with people from all walks of life.
         </p>
         <p className="flex mt-5 mb-5 m-10 text-justify">
-          I am currently attending University of Maryland Baltimore County,
-          exploring different fields in Computer Science. Graduating in May
+          I am currently attending University of Maryland, Baltimore County -
+          exploring different fields in Computer Science. Graduating in August
           2023.
         </p>
         <p className="flex mt-5 mb-5 m-10 text-justify">

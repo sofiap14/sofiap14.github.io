@@ -9,7 +9,7 @@ export default function Education() {
       </h1>
 
       <div className="mt-6">
-        <ul className="grid grid-cols-2 gap-5 m-1 md:text-[18px] lg:flex text-white font-mono lg:grid lg:grid-cols-2 lg:gap-15">
+        <ul className="grid grid-cols-2 gap-5 m-1 md: lg:flex text-white font-mono lg:grid lg:grid-cols-2 lg:gap-15">
           <li className="mx-7 text-[16px] md:mx-24 lg:mx-52 lg:flex lg:text-lg text-pastel-purple lg:font-[900]">
             Master's in <br /> Computer Science
           </li>
@@ -25,7 +25,7 @@ export default function Education() {
             >
               @ University of Maryland Baltimore County <br />
             </a>
-            <span className="text-[11px] lg:text-lg">Aug 2021 - May 2023</span>
+            <span className="text-[11px] lg:text-lg">Aug 2021 - Aug 2023</span>
           </li>
 
           <li className="text-gray-400">
