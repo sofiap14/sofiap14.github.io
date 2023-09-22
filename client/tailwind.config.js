@@ -26,6 +26,12 @@ module.exports = {
       'large': '12px',
     },
     extend: {
+      screens:{
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+      },
       colors: {
         pastel: {
           DEFAULT:'#0e1212',

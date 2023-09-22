@@ -1,16 +1,18 @@
 import "./styles.css";
-import React from "react";
+import React, { useEffect } from 'react';
 import { AiOutlineLoading} from "react-icons/ai";
 import AboutMe from "./About";
 import NavBar from "./Navbar";
 import MainSkills from "./MainSkills";
 import Education from "./Education";
+import Projects from "./Projects";
 
 function App() {
   return (
-    <div className="bg-pastel pb-28 pt-4">
+    <div className="bg-pastel pb-28">
       <NavBar />
       <AboutMe />
+      <Projects />
       <MainSkills />
       <Education />
 
