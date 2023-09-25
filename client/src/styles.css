@@ -27,7 +27,7 @@
     .project-row {
     display: flex;
     align-items: center; /* Vertically center the content */
-    margin-bottom: 3rem; /* Add some spacing between projects */
+    /* margin-bottom: 3rem; Add some spacing between projects */
     }
   
     .project-content {
@@ -47,6 +47,7 @@
     .project-right {
     flex: 2; /* Make the text take up 2/3 of the available space */
     padding-left: 3rem; /* Add some spacing between image and text */
+    text-align: left;
     }
 
     .container {
@@ -55,6 +56,20 @@
       margin: auto;
       overflow: hidden;
       transition: all 0.3s ease;
+    }
+
+    @media screen and (max-width: 768px) {
+      .project-row {
+        flex-direction: column; /* Stack projects vertically */
+        align-items: flex-start; /* Align projects to the left */
+        /* margin-bottom: 2rem; Adjust spacing between projects */
+      }
+
+      .project-right {
+        flex: 1;
+        padding-left: 0;
+        text-align: left;
+      }
     }
   
   /* Add your AOS animation styles here */

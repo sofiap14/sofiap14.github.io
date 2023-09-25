@@ -6,19 +6,19 @@ import { Element } from 'react-scroll';
 function Projects() {
   const projects = [
     {
-      title: "CryptoCrowd Sentiment Analysis",
-      imageSrc: "/mm.png",
+      title: "Weather App",
+      imageSrc: "/weather.png",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nulla nec metus interdum euismod. Sed id sapien id arcu eleifend egestas.",
-      techStack: ["Tech 1", "Tech 2", "Tech 3"],
+      techStack: ["Tech 1", "Tech 2", "Tech 3", "Tech 3", "Tech 3","Tech 3", "Tech 3"],
     },
     {
-        title: "Weather App",
-        imageSrc: "/mm2.png",
+        title: "Dictionary App",
+        imageSrc: "/dictionary.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nulla nec metus interdum euismod. Sed id sapien id arcu eleifend egestas.",
         techStack: ["Tech 1", "Tech 2", "Tech 3"],
       },
     {
-        title: "Dictionary App",
+        title: "Cryptocurrency analysis",
         imageSrc: "/img/cryptocrowd2.png",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nulla nec metus interdum euismod. Sed id sapien id arcu eleifend egestas.",
         techStack: ["Tech 1", "Tech 2", "Tech 3"],
@@ -27,23 +27,23 @@ function Projects() {
   ];
 
   return (
-    <Element name="projects" className="projects">
+    <Element name="projects" class="container">
         <section id="projects" className="projects">
-            <div className="">
-                <h2 className="text-lg ml-7 md:text-2xl lg:text-2xl lg:font-[900] md:mx-24 lg:mx-52 text-pastel-green py-4 md:py-8 lg:py-8 text-pastel-green mb-14">
-                    My
-                    <span className=""> Projects </span>
-                </h2>
-                {projects.map((project, index) => (
-                <Project
-                    key={index}
-                    title={project.title}
-                    imageSrc={project.imageSrc}
-                    description={project.description}
-                    techStack={project.techStack}
-                />
-                ))}
-            </div>
+          <div className='text-center text-white'>
+            <h2 className="text-lg text-pastel-green pb-6">
+                My
+                <span className=""> Projects </span>
+            </h2>
+            {projects.map((project, index) => (
+            <Project
+              key={index}
+              title={project.title}
+              imageSrc={project.imageSrc}
+              description={project.description}
+              techStack={project.techStack}
+            />
+            ))}
+          </div>
         </section>
     </Element>
   );

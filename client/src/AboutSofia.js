@@ -9,52 +9,52 @@ function AboutSofia() {
   return (
     <div className="place-content-center lg:justify-start text-white" id="about">
       {/* About Sofia */}
-      <h1 className="flex place-content-center text-3xl md:flex lg:flex md:place-content-center md:text-4xl lg:place-content-center lg:text-5xl font-mono font-bold lg:mt-12">
+      <h1 className="flex place-content-center text-5xl font-mono font-bold lg:mt-12">
         about (<span className="text-pastel-purple">sofia</span>)
       </h1>
 
       {/* Icon Bar and CV Button */}
-      <ul className="flex justify-center mt-5 space-x-4 text-2xl md:text-3xl lg:text-3xl">
-        <li>
+      <ul className="flex justify-center p-4 space-x-6 text-3xl"> 
+        <li> {/* Linkedin Icon */}
           <a href="https://www.linkedin.com/in/sofia-panuganti/">
             <button
               className="text-pastel-purple hover:text-white"
               title="Linkedin" data-aos="flip-left"
             >
-              <AiFillLinkedin className="text-2xl md:text-3xl lg:text-3xl" />
+              <AiFillLinkedin className="text-3xl md:text-3xl lg:text-3xl" />
             </button>
           </a>
         </li>
 
-        <li>
+        <li> {/* Leetcode Icon */}
           <a href="https://leetcode.com/sofiap14/">
             <button
               className="text-pastel-purple hover:text-white"
               title="Leetcode" data-aos="flip-left"
             >
-              <SiLeetcode className="text-2xl md:text-3xl lg:text-3xl" />
+              <SiLeetcode className="text-3xl" />
             </button>
           </a>
         </li>
 
-        <li>
+        <li> {/* Github Icon */}
           <a href="https://github.com/sofiap14">
             <button
               className="text-pastel-purple hover:text-white"
               title="Github" data-aos="flip-left"
             >
-              <AiFillGithub className="text-2xl md:text-3xl lg:text-3xl" />
+              <AiFillGithub className="text-3xl" />
             </button>
           </a>
         </li>
 
-        <li>
+        <li> {/* Duolingo Icon */}
           <a href="https://www.duolingo.com/profile/sofiap14_">
             <button
               className="text-pastel-purple hover:text-white"
               title="Duolingo" data-aos="flip-left"
             >
-              <SiDuolingo className="text-2xl md:text-3xl lg:text-3xl" />
+              <SiDuolingo className="text-3xl" />
             </button>
           </a>
         </li>
@@ -62,10 +62,10 @@ function AboutSofia() {
         {/* DOWNLOAD MY CV */}
 
         <li className="flex items-center">
-          <span className="text-sm flex text-lg font-mono text-white mx-2 my-1">
+          <span className="flex text-lg font-mono text-white">
             <span className="hidden sm:inline">Download my</span>{" "}
-            <a href={resume} target="_blank">
-              <button className="ml-0.5 rounded border border-pastel-purple flex bg-pastel-purple text-white hover:bg-white hover:text-pastel-purple font-bold uppercase text-xs md:text-sm lg:text-sm mx-0.5 sm:mx-3 -my-0.5 px-2 py-1 rounded-full shadow hover:shadow-md outline-none focus:outline-none"
+            <a href={resume}>
+              <button className="ml-0.5 border border-pastel-purple flex bg-pastel-purple text-white hover:bg-white hover:text-pastel-purple font-bold uppercase text-sm -my-0.5 px-2 py-0.5 rounded-full shadow hover:shadow-md outline-none focus:outline-none"
                 title="SofiaPanuganti.pdf"
               >
                 <FiDownload class="mt-0.5 mx-0.5 my-0.5 text-md"></FiDownload>{" "}
@@ -74,8 +74,6 @@ function AboutSofia() {
             </a>
           </span>
         </li>
-
-
 
       </ul>
     </div>
