@@ -21,58 +21,59 @@ export default function Project({ title, imageSrc, description, techStack, demoL
 
   return (
     <div className="project-row" data-aos="fade-up">
-
-      {/* Project Image */}
-      <div className="project-left pt-4 pb-4 w-342 h-300 rounded">
+      {/* Project Left */}
+      <div className="project-left pt-4 pb-4 w-342 h-300">
         <div>
           {imageLoadError ? (
             <div className="image-placeholder"><img src={imageError} alt="Error" /></div>
           ) : (
-            <img src={imageSrc} alt="" onError={handleImageError} />
+            <img src={imageSrc} alt="" className="rounded" onError={handleImageError} />
           )}
         </div>
       </div>
 
-      {/* Project Description with Title, Tech Stack, Description, Links */}
-      <div className="flex flex-col space-y-2 project-right pb-8">
-        {/* <div className="md:ml-0 lg:ml-0 xl:ml-0 md:order-2 lg:order-2 xl:order-2"> */}
-          <h3 className="font-sans font-semibold text-2xl">{title}</h3>
-          <ul className="flex flex-wrap space-x-3">
+      {/* Project Right */}
+      <div className="flex flex-col space-y-2 project-right pb-8"> {/* <div className="md:ml-0 lg:ml-0 xl:ml-0 md:order-2 lg:order-2 xl:order-2"> */}
+
+          <h3 className="font-sans font-semibold text-2xl">{title}</h3> {/* Project Title */}
+
+          <ul className="flex flex-wrap space-x-3"> {/* Project Tech Stack */}
             <p className="text-gray-400"> <b> Made with: </b> </p>
             {techStack.map((tech, index) => (
               <li key={index} className="text-gray-300">{tech}</li>
             ))}
           </ul>
-          <p className="text-gray-300">{description}</p>
 
-<div className="flex space-x-4 pt-2">
-  {demoLink && (
-    <a href={demoLink}>
-      <button className="border border-pastel-purple flex bg-pastel-purple text-white hover:bg-white hover:text-pastel-purple text-sm -my-0.5 px-2 py-0.5 rounded-full shadow hover:shadow-md outline-none focus:outline-none" title="Demo">
-        <AiOutlineYoutube className="m-0.5 mr-1 text-xl" /> Demo
-      </button>
-    </a>
-  )}
+          <p className="text-gray-300">{description}</p> {/* Project Description */}
 
-  {codeLink && (
-    <a href={codeLink}>
-      <button className="border border-pastel-purple flex bg-pastel-purple text-white hover:bg-white hover:text-pastel-purple text-sm -my-0.5 px-2 py-0.5 rounded-full shadow hover:shadow-md outline-none focus:outline-none" title="Code">
-        <AiFillGithub className="m-0.5 mr-1 text-xl" /> Code
-      </button>
-    </a>
-  )}
+          <div className="flex space-x-4 pt-2"> {/* Project Links */}
 
-  {liveLink && (
-    <a href={liveLink}>
-      <button className="border border-pastel-purple flex bg-pastel-purple text-white hover:bg-white hover:text-pastel-purple text-sm -my-0.5 px-2 py-0.5 rounded-full shadow hover:shadow-md outline-none focus:outline-none" title="Live">
-        <CgWebsite className="m-0.5 mr-1 text-xl" /> Live
-      </button>
-    </a>
-  )}
-</div>
+            {demoLink && (
+              <a href={demoLink}>
+                <button className="border border-pastel-purple flex bg-pastel-purple text-white hover:bg-white hover:text-pastel-purple text-sm -my-0.5 px-2 py-0.5 rounded-full shadow hover:shadow-md outline-none focus:outline-none" title="Demo">
+                  <AiOutlineYoutube className="m-0.5 mr-1 text-xl" /> Demo
+                </button>
+              </a>
+            )}
 
+            {codeLink && (
+              <a href={codeLink}>
+                <button className="border border-pastel-purple flex bg-pastel-purple text-white hover:bg-white hover:text-pastel-purple text-sm -my-0.5 px-2 py-0.5 rounded-full shadow hover:shadow-md outline-none focus:outline-none" title="Code">
+                  <AiFillGithub className="m-0.5 mr-1 text-xl" /> Code
+                </button>
+              </a>
+            )}
+
+            {liveLink && (
+              <a href={liveLink}>
+                <button className="border border-pastel-purple flex bg-pastel-purple text-white hover:bg-white hover:text-pastel-purple text-sm -my-0.5 px-2 py-0.5 rounded-full shadow hover:shadow-md outline-none focus:outline-none" title="Live">
+                  <CgWebsite className="m-0.5 mr-1 text-xl" /> Live
+                </button>
+              </a>
+            )}
+
+          </div>
       </div>
-
     </div>
   );
 }

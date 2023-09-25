@@ -10,7 +10,7 @@ function Projects() {
       title: "Weather App",
       imageSrc: "/weather1.png",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nulla nec metus interdum euismod. Sed id sapien id arcu eleifend egestas.",
-      techStack: ["Tech 1", "Tech 2", "Tech 3", "Tech 3", "Tech 3", "Tech 3", "Tech 3"],
+      techStack: ["NODE", "Tech 2", "Tech 3", "Tech 3", "Tech 3", "Tech 3", "Tech 3"],
       demoLink: "https://www.example.com/demo1",
       codeLink: "https://www.example.com/code1",
       liveLink: "https://www.example.com/live1",

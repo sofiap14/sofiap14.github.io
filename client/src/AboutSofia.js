@@ -66,7 +66,7 @@ function AboutSofia() {
             <span className="hidden sm:inline mr-2">Download my </span>{" "}
             <a href={resume}>
               <button className="ml-0.5 border border-pastel-purple flex bg-pastel-purple text-white hover:bg-white hover:text-pastel-purple font-bold uppercase text-sm -my-0.5 px-2 py-0.5 rounded-full shadow hover:shadow-md outline-none focus:outline-none"
-                title="SofiaPanuganti.pdf"
+                title="SofiaPanuganti.pdf" data-aos="flip-left"
               >
                 <FiDownload class="m-0.5 text-md"></FiDownload>{" "}
                 CV
