@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 import imageError from './images/imageError.png';
+import { AiFillYoutube, AiOutlineCode } from "react-icons/ai";
 
 export default function Project({ title, imageSrc, description, techStack }) {
   const [imageLoadError, setImageLoadError] = useState(false);
@@ -21,7 +22,7 @@ export default function Project({ title, imageSrc, description, techStack }) {
     <div className="project-row" data-aos="fade-up">
 
       <div className="project-left pt-4 pb-4">
-        <div className="text-white">
+        <div>
           {imageLoadError ? (
             <div className="image-placeholder"><img src={imageError} alt="Error" /></div>
           ) : (
@@ -41,16 +42,23 @@ export default function Project({ title, imageSrc, description, techStack }) {
           </ul>
           <p className="text-gray-300">{description}</p>
           <div className="flex space-x-4">
-            <a href="https://www.youtube.com/watch?v=uhyC0M4WIl4" className="text-pastel-purple hover:text-white bg-transparent hover:bg-pastel-purple border border-pastel-purple rounded-full px-3 py-2 items-center mx-1" target="_blank">
-              <i class="fab fa-youtube text-2xl mr-1"></i> Demo
+            <a href="https://www.youtube.com/watch?v=uhyC0M4WIl4">
+              <button
+                className="text-pastel-purple hover:text-white"
+                title="Demo"
+              >
+                <AiFillYoutube className="text-3xl"> Demo </AiFillYoutube>
+              </button>
             </a>
-            <a href="https://github.com/ben04rogers/cab432-assignment-2" className="text-pastel-purple hover:text-white bg-transparent hover:bg-pastel-purple border border-pastel-purple rounded-full px-3 py-2 flex items-center mx-1" target="_blank">
-              <i class="fab fa-github text-2xl mr-1"></i> Code
+            <a href="https://github.com/ben04rogers/cab432-assignment-2">
+              <button
+                  className="text-pastel-purple hover:text-white"
+                  title="Demo"
+                >
+              <AiOutlineCode className="text-3xl"> Code </AiOutlineCode>
+              </button>
             </a>
           </div>
-
-            
-
         </div>
     </div>
   );

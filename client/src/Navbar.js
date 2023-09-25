@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <nav className="flex justify-center pt-24 pb-14 font-mono">
+    <nav className="flex justify-center pt-8 pb-10 font-mono">
       <div>
         <ul className="space-x-6">
           <li className="inline-block">

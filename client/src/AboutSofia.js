@@ -9,7 +9,7 @@ function AboutSofia() {
   return (
     <div className="place-content-center lg:justify-start text-white" id="about">
       {/* About Sofia */}
-      <h1 className="flex place-content-center text-5xl font-mono font-bold lg:mt-12">
+      <h1 className="flex text-5xl font-mono font-bold lg:mt-12" style={{ whiteSpace: 'nowrap' }}>
         about (<span className="text-pastel-purple">sofia</span>)
       </h1>
 
