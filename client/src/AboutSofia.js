@@ -63,12 +63,12 @@ function AboutSofia() {
 
         <li className="flex items-center">
           <span className="flex text-lg font-mono text-white">
-            <span className="hidden sm:inline">Download my</span>{" "}
+            <span className="hidden sm:inline mr-2">Download my </span>{" "}
             <a href={resume}>
               <button className="ml-0.5 border border-pastel-purple flex bg-pastel-purple text-white hover:bg-white hover:text-pastel-purple font-bold uppercase text-sm -my-0.5 px-2 py-0.5 rounded-full shadow hover:shadow-md outline-none focus:outline-none"
                 title="SofiaPanuganti.pdf"
               >
-                <FiDownload class="mt-0.5 mx-0.5 my-0.5 text-md"></FiDownload>{" "}
+                <FiDownload class="m-0.5 text-md"></FiDownload>{" "}
                 CV
               </button>
             </a>
