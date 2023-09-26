@@ -65,12 +65,20 @@
       }
 
       .project-logo {
-        width: 35px;
-        height: 35px;
+        width: 30pt;
+        height: 30pt;
       }
 
 
-    }
+      .education ul li {
+          list-style-type: disc;
+          list-style-position: inside;
+          padding: 5px 0 0 20px;
+          text-indent: -1em;
+
+      }
+
+
   
   /* Add your AOS animation styles here */
   
@@ -82,7 +90,7 @@
   [data-aos="fade-up"].aos-animate {
     opacity: 1;
   }
-
+    }
 
   
 }

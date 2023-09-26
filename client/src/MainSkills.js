@@ -1,29 +1,47 @@
+import nodejs from './images/nodejsLogo.png';
+import react from './images/reactLogo.png';
+import python from './images/pythonLogo.png';
+import cpp from './images/cppLogo.png'
+import html from './images/htmlLogo.png';
+import css from './images/cssLogo.png';
+import javascript from './images/javascriptLogo.png';
+import java from './images/javaLogo.png';
+import express from './images/expressLogo2.png';
+import git from './images/gitLogo.png';
+import linux from './images/linuxLogo.png';
+import mongodb from './images/mongodbLogo.png';
+import React, { useEffect } from "react";
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+
 export default function MainSkills() {
-    return (
 
-<div
-  className="text-white mt-10 mb-6 font-mono"
-  id="skills"
->
-  <h1 className="text-lg ml-7 md:text-2xl lg:text-2xl lg:font-[900] md:mx-24 lg:mx-52 text-pastel-green">
-     Main Skills 
-  </h1>
-  
-  <div className="m-7 text-sm grid grid-cols-3 gap-8 max-w-sm md:max-w-md md:text-lg mt-6 md:grid md:grid-cols-3 md:gap-14 md:mx-24 lg:flex md:flex lg:text-lg lg:mx-52 lg:grid lg:grid-cols-3 lg:gap-24">
-    <div>Problem solving</div>
-    <div>
-      JavaScript, HTML, <br /> CSS, ReactJs
-    </div>
-    <div>
-      C, C++, Java, <br /> Python
-    </div>
-    <div>Critical thinking</div>
-    <div className="text-gray-600">
-      // Adobe Photoshop, <br /> // After Effects, Premiere Pro
-    </div>
-    <div>MySQL, MongoDB</div>
-  </div>
-</div>
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+    });
+  }, []);
 
-    );
+  return (
+    <section id="skills">
+      <div className="container pb-28 text-center" data-aos="zoom-in">
+        <h2 className="text-lg text-pastel-green"> Main Skills </h2>
+        <ul className="grid grid-cols-3 p-6 gap-x-4 gap-y-14 text-gray-200 font-mono text-sm justify-items-center place-items-baseline">
+          <li><div className="transform w-20 h-20 transition duration-200 hover:scale-150"><img src={nodejs} alt="NodeJs" /><span> NodeJS </span></div></li>
+          <li><div className="transform w-20 h-20 transition duration-200 hover:scale-150"><img src={react} alt="React" /><span> React </span></div></li>
+          <li><div className="transform w-20 h-20 transition duration-200 hover:scale-125"><img src={python} alt="Python" /><span> Python </span></div></li>
+          <li><div className="transform w-20 h-20 transition duration-200 hover:scale-150"><img src={java} alt="Java" /><span> Java </span></div></li>
+          <li><div className="transform w-20 h-20 transition duration-200 hover:scale-150"><img src={cpp} alt="C++" /><span> C++ </span></div></li>
+          <li><div className="transform w-20 h-20 transition duration-200 hover:scale-150"><img src={html} alt="HTML" /><span> HTML </span></div></li>
+          <li><div className="transform w-20 h-20 transition duration-200 hover:scale-150"><img src={css} alt="CSS" /><span> CSS </span></div></li>
+          <li><div className="transform w-20 h-20 transition duration-200 hover:scale-125"><img src={javascript} alt="JavaScript" /><span> JavaScript </span></div></li>
+          <li><div className="transform w-20 h-20 transition duration-200 hover:scale-150"><img src={express} alt="Express" /><span> Express </span></div></li>
+          <li><div className="transform w-20 h-20 transition duration-200 hover:scale-150"><img src={git} alt="Git" /><span> Git </span></div></li>
+          <li><div className="transform w-20 h-20 transition duration-200 hover:scale-125"><img src={linux} alt="Linux" /><span> Linux </span></div></li>
+          <li><div className="transform w-20 h-20 transition duration-200 hover:scale-125"><img src={mongodb} alt="MongoDB" /><span> MongoDB </span></div></li>
+        </ul>
+      </div>
+    </section>
+  );
 }
+

@@ -1,60 +1,89 @@
-export default function Education() {
+import lfjc from './images/LFJCLogo.jpg';
+import jntu from './images/JNTU_Hyderabad_logo.png';
+import umbc from './images/UMBCLogo.png';
+import React, { useEffect, useState } from "react";
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+import imageError from './images/imageError.png';
+
+const educationData = [
+  {
+    uniLogo: umbc,
+    href: "https://gradschool.umbc.edu/",
+    year: 'August 2021 - August 2023',
+    university: 'University of Maryland, Baltimore County',
+    degree: 'Master of Science',
+    gpa: 'GPA 3.76/4.0',
+    details: ['Major in Computer Science', 'Graduate Student Assistant - Principles of Computer Security (Spring 22, Fall 22), Discrete Mathematics (Spring 23)', 'Baltimore, USA'],
+  },
+  {
+    uniLogo: jntu,
+    href: "https://cvr.ac.in/home4/",
+    year: '2017 - 2021',
+    university: 'Jawaharlal Nehru Technological University',
+    degree: 'Bachelor of Technology',
+    gpa: 'GPA 3.78/4.0',
+    details: ['Major in Computer Science and Engineering', 'Magna cum laude', 'Student Volunteer Organization Head', 'Hyderabad, India'],
+  },
+  {
+    uniLogo: lfjc,
+    href: "https://lfjc.co.in/",
+    year: '2017',
+    university: 'LFJC',
+    degree: 'Associates',
+    gpa: 'GPA 3.78/4.0',
+    details: ['Secondary education in Math, Physics and Chemistry', 'Hyderabad, India'],
+  }
+];
+
+export default function EducationCard() {
+
+  const [imageLoadError, setImageLoadError] = useState(false);
+
+  const handleImageError = () => {
+    setImageLoadError(true);
+  };
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1400,
+    });
+  }, []);
+
   return (
-    <div className="text-white mt-10 mb-6 font-mono"
-     id="education"
-     >
+  <div className='education'>
+    <h2 className="text-lg text-center text-pastel-green" data-aos="zoom-in">Education</h2> {/*Main Title*/}
 
-      <h1 className="text-lg ml-7 md:text-2xl lg:text-2xl lg:font-[900] md:mx-24 lg:mx-52 text-pastel-green">
-        Education
-      </h1>
+    {/*Education Card*/}
+    {educationData.map((data, index) => ( 
+      <div key={index} className="container" data-aos='zoom-in'>
+        <div className="border border-gray-950 bg-gray-900 rounded-large flex">
+          <div className="p-4 w-1/3"> {/*Uni Logo, left column*/}
+            {imageLoadError ? (
+              <div className="image-placeholder"><img src={imageError} alt="Error" /></div>
+              ) : (
+              <img src={data.uniLogo} alt="University Logo" onError={handleImageError} />
+              )}
+          </div>
 
-      <div className="mt-6">
-        <ul className="grid grid-cols-2 gap-5 m-1 md: lg:flex text-white font-mono lg:grid lg:grid-cols-2 lg:gap-15">
-          <li className="mx-7 text-[16px] md:mx-24 lg:mx-52 lg:flex lg:text-lg text-pastel-purple lg:font-[900]">
-            Master's in <br /> Computer Science
-          </li>
-          <li className="text-[16px] lg:flex lg:text-lg text-pastel-purple lg:font-[900]">
-            Bachelor's in <br /> Computer Science and Engineering
-          </li>
-
-          <li className="mx-7 md:mx-24 lg:mx-52 text-gray-400 ">
-            <a
-              href="https://gradschool.umbc.edu/"
-              className="text-[12px] lg:text-lg underline underline-offset-2 decoration-gray-600 hover:decoration-transparent text-gray-300 hover:text-white link link-underline link-underline-black text-white"
-              title="University of Maryland Baltimore County"
-            >
-              @ University of Maryland Baltimore County <br />
+          <div className="p-4 w-2/3 text-white"> {/*Education details, right column*/}
+            <h4>{data.year}</h4>
+            <h4 className='font-semibold'>
+            <a href={data.href} className="underline underline-offset-2 decoration-gray-600 hover:decoration-transparent text-gray-300 hover:text-white link link-underline link-underline-black"> 
+              {data.university} - {data.degree}
             </a>
-            <span className="text-[11px] lg:text-lg">Aug 2021 - Aug 2023</span>
-          </li>
-
-          <li className="text-gray-400">
-            <a
-              href="https://cvr.ac.in/home4/"
-              className="text-[12px] lg:text-lg underline underline-offset-2 decoration-gray-600 hover:decoration-transparent text-gray-300 hover:text-white link link-underline link-underline-black text-white"
-              title="CVR College of Engineering"
-            >
-              @ Jawaharlal Nehru Technological University <br />
-            </a>
-            <span className="text-[12px] lg:text-lg">2017 - 2021</span>
-          </li>
-          <li className="mx-7 text-sm md:mx-24 lg:mx-52 mt-10 lg:flex lg:text-lg text-pastel-purple lg:font-[900]">
-            Intermediate (Associate's) in <br />{" "}
-            Mathematics, Physics and Chemistry
-          </li>
-          <li></li>
-          <li className="text-[12px] mx-7 md:text-lg lg:text-lg md:mx-24 lg:mx-52 text-gray-400 ">
-            <a
-              href="https://lfjc.co.in/"
-              className="underline underline-offset-2 decoration-gray-600 hover:decoration-transparent text-gray-300 hover:text-white link link-underline link-underline-black text-white"
-              title="Little Flower Junior College"
-            >
-              @ LFJC, India <br />
-            </a>
-            2015 - 2017
-          </li>
-        </ul>
+            </h4>
+            <p className='pt-1 pb-1'>{data.gpa}</p>
+            <ul>
+              {data.details.map((detail, detailIndex) => (
+                <li key={detailIndex}>{detail}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  );
+    ))}
+
+  </div>
+);
 }
