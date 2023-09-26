@@ -37,8 +37,8 @@ export default function Project({ title, imageSrc, description, techStack, demoL
 
           <h3 className="font-sans font-semibold text-2xl">{title}</h3> {/* Project Title */}
 
-          <ul className="flex flex-wrap space-x-3"> {/* Project Tech Stack */}
-            <p className="text-gray-400"> <b> Made with: </b> </p>
+          <ul className="flex flex-wrap space-x-3 "> {/* Project Tech Stack */}
+            <p className="text-gray-500 font-mono font-light pt-1"> Made with: </p>
             {techStack.map((tech, index) => (
               <li key={index} className="text-gray-300">{tech}</li>
             ))}
