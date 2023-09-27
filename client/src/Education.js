@@ -51,14 +51,15 @@ export default function EducationCard() {
   }, []);
 
   return (
-      <div id="education" className='education pb-28 border rounded-lg border-gray-900 shadow-xl dark:default:shadow-dark'>
+    <section id="education" className='container'>
+      <div className="education  pb-28 border rounded-lg border-gray-900 shadow-xl dark:default:shadow-dark lg:text-sm lg:font-normal lg:text-gray-300">
         <h2 className="text-[18px] text-center text-pastel-green font-mono mt-4" data-aos="zoom-in">Education</h2> {/*Main Title*/}
-
+        
         {/*Education Card*/}
         {educationData.map((data, index) => ( 
-          <div key={index} className="container" data-aos='zoom-in'>
-            <div className="border border-gray-950 bg-gray-900 rounded-large flex">
-              <div className="p-4 w-1/3"> {/*Uni Logo, left column*/}
+          <div key={index} className="container lg:pl-36 lg:pr-36" data-aos='zoom-in'>
+            <div className="border border-gray-950 bg-gray-900 rounded-large flex md:justify-center lg:justify-center">
+              <div className="p-2 w-1/3 md:w-1/6 lg:w-1/6"> {/*Uni Logo, left column*/}
                 {imageLoadError ? (
                   <div className="image-placeholder"><img src={imageError} alt="Error" /></div>
                   ) : (
@@ -66,7 +67,7 @@ export default function EducationCard() {
                   )}
               </div>
 
-              <div className="p-4 w-2/3 text-white"> {/*Education details, right column*/}
+              <div className="education p-4 w-2/3 text-white"> {/*Education details, right column*/}
                 <h4>{data.year}</h4>
                 <h4 className='font-semibold'>
                 <a href={data.href} className="underline underline-offset-2 decoration-gray-600 hover:decoration-transparent text-gray-300 hover:text-white link link-underline link-underline-black"> 
@@ -74,7 +75,7 @@ export default function EducationCard() {
                 </a>
                 </h4>
                 <p className='pt-1 pb-1'>{data.gpa}</p>
-                <ul>
+                <ul className="list-disc list-inside"> {/* Style list items using Tailwind CSS classes */}
                   {data.details.map((detail, detailIndex) => (
                     <li key={detailIndex}>{detail}</li>
                   ))}
@@ -84,6 +85,6 @@ export default function EducationCard() {
           </div>
         ))}
       </div>
-
-);
+    </section>
+  );
 }

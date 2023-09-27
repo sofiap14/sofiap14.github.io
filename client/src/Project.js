@@ -33,7 +33,7 @@ export default function Project({ title, imageSrc, description, techStack, demoL
       </div>
 
       {/* Project Right */}
-      <div className="flex flex-col space-y-2 project-right md:w-3/5 lg:w-3/5 lg:text-gray-300 pb-8 md:text-lg lg:text-sm md:ml-0 lg:ml-0 xl:ml-0 md:order-2 lg:order-2">
+      <div className="flex flex-col space-y-2 pb-8 project-right md:w-3/5 lg:w-3/5 md:text-lg lg:text-sm md:ml-0 lg:ml-0 xl:ml-0 md:order-2 lg:order-2">
 
           <h3 className="font-sans font-semibold lg:font-normal text-2xl">{title}</h3> {/* Project Title */}
 
