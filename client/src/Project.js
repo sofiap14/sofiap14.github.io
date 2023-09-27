@@ -20,9 +20,9 @@ export default function Project({ title, imageSrc, description, techStack, demoL
   }, []);
 
   return (
-    <div className="project-row items-center md:px-4" data-aos="fade-up">
+    <div className="project-row items-center md:px-4 lg:pl-16" data-aos="fade-up">
       {/* Project Left */}
-      <div className="project-left pt-4 pb-4 w-full md:ml-6 md:w-2/5 lg:w-2/4">
+      <div className="project-left pt-4 pb-4 w-full md:ml-6 md:w-2/5 lg:w-2/5">
         <div>
           {imageLoadError ? (
             <div className="image-placeholder"><img src={imageError} alt="Error" /></div>
@@ -33,9 +33,9 @@ export default function Project({ title, imageSrc, description, techStack, demoL
       </div>
 
       {/* Project Right */}
-      <div className="flex flex-col space-y-2 project-right md:w-3/5 lg:w-3/6 pb-8 md:text-lg md:ml-0 lg:ml-0 xl:ml-0 md:order-2 lg:order-2">
+      <div className="flex flex-col space-y-2 project-right md:w-3/5 lg:w-3/5 lg:text-gray-300 pb-8 md:text-lg lg:text-sm md:ml-0 lg:ml-0 xl:ml-0 md:order-2 lg:order-2">
 
-          <h3 className="font-sans font-semibold text-2xl">{title}</h3> {/* Project Title */}
+          <h3 className="font-sans font-semibold lg:font-normal text-2xl">{title}</h3> {/* Project Title */}
 
           <ul className="flex flex-wrap space-x-3 md:flex md:flex-col md:w-10 md:h-10 lg:flex lg:flex-col lg:w-10 lg:h-10"> {/* Project Tech Stack */}
             <p className="text-gray-500 font-mono font-light pt-3 lg:pt-1 md:pt-1 md: truncate lg:truncate"> Made with: </p>
