@@ -1,9 +1,9 @@
-import lfjc from './images/LFJCLogo.jpg';
-import jntu from './images/JNTU_Hyderabad_logo.png';
-import umbc from './images/UMBCLogo.png';
 import React, { useEffect, useState } from "react";
 import AOS from 'aos'
 import 'aos/dist/aos.css';
+import lfjc from './images/lfjc.png';
+import jntu from './images/JNTU_Hyderabad_logo.png';
+import umbc from './images/UMBCLogo.png';
 import imageError from './images/imageError.png';
 
 const educationData = [
@@ -22,7 +22,7 @@ const educationData = [
     year: '2017 - 2021',
     university: 'Jawaharlal Nehru Technological University',
     degree: 'Bachelor of Technology',
-    gpa: 'GPA 3.78/4.0',
+    gpa: 'GPA 3.82/4.0',
     details: ['Major in Computer Science and Engineering', 'Magna cum laude', 'Student Volunteer Organization Head', 'Hyderabad, India'],
   },
   {
@@ -31,7 +31,7 @@ const educationData = [
     year: '2017',
     university: 'LFJC',
     degree: 'Associates',
-    gpa: 'GPA 3.78/4.0',
+    gpa: 'GPA 3.9/4.0',
     details: ['Secondary education in Math, Physics and Chemistry', 'Hyderabad, India'],
   }
 ];
@@ -46,12 +46,12 @@ export default function EducationCard() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1400,
+      duration: 500,
     });
   }, []);
 
   return (
-  <div className='education'>
+  <div className='education pb-28'>
     <h2 className="text-lg text-center text-pastel-green" data-aos="zoom-in">Education</h2> {/*Main Title*/}
 
     {/*Education Card*/}

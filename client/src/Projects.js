@@ -43,7 +43,7 @@ function Projects() {
   ];
 
   return (
-    <div className="bg-gray-800 rounded-e-full">
+    <div className="bg-gray-900 rounded-e-full">
     <Element name="projects" className="container pb-28">
       <section id="projects" className="projects ">
         <div className='text-center text-white'>

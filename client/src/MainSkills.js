@@ -6,7 +6,7 @@ import html from './images/htmlLogo.png';
 import css from './images/cssLogo.png';
 import javascript from './images/javascriptLogo.png';
 import java from './images/javaLogo.png';
-import express from './images/expressLogo2.png';
+import express from './images/expressLogo3.png';
 import git from './images/gitLogo.png';
 import linux from './images/linuxLogo.png';
 import mongodb from './images/mongodbLogo.png';
