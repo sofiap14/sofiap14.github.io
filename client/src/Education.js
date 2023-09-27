@@ -57,7 +57,7 @@ export default function EducationCard() {
         
         {/*Education Card*/}
         {educationData.map((data, index) => ( 
-          <div key={index} className="container lg:pl-36 lg:pr-36" data-aos='zoom-in'>
+          <div key={index} className="container md:pl-36 md:pr-36 lg:pl-36 lg:pr-36" data-aos='zoom-in'>
             <div className="border border-gray-950 bg-gray-900 rounded-large flex md:justify-center lg:justify-center">
               <div className="p-2 w-1/3 md:w-1/6 lg:w-1/6"> {/*Uni Logo, left column*/}
                 {imageLoadError ? (

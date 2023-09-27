@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <nav className="container flex justify-center lg:justify-end font-mono">
+    <nav className="container flex justify-center lg:justify-end font-mono" style={{ whiteSpace: 'nowrap' }}>
       <div>
         <ul className="space-x-6 md:space-x-10 lg:space-x-14">
           {/* <li className="inline-block">
