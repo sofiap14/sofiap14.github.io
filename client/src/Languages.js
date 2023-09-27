@@ -10,7 +10,7 @@ export default function Languages() {
           {" "}
           Languages I speak{" "}
         </h1>
-        <div className="grid grid-cols-3 gap-6 max-w-sm mx-7 md:max-w-md md:mx-24 md:grid md:grid-cols-3 md:gap-18 lg:max-w-lg lg:mx-52 mt-6 lg:grid lg:grid-cols-3 lg:gap-15">
+        <div className="grid grid-cols-3 gap-6 max-w-sm mx-7 md:max-w-md md:mx-24 md:grid md:grid-cols-3 md:gap-18 lg:max-w-lg lg:mx-auto lg:grid lg:grid-cols-3 lg:gap-15 mt-6">
           <div className="text-[16px] lg:font-[900] text-gray-600">//fluent</div>
           <div className="text-[16px] lg:font-[900] text-gray-600">//adv</div>
           <div className="text-[16px] lg:font-[900] text-gray-600">//basic</div>

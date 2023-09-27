@@ -52,7 +52,7 @@ export default function EducationCard() {
 
   return (
     <section id="education" className='container'>
-      <div className="education  pb-28 border rounded-lg border-gray-900 shadow-xl dark:default:shadow-dark lg:text-sm lg:font-normal lg:text-gray-300">
+      <div className="education pb-28 border rounded-lg border-gray-900 shadow-xl dark:default:shadow-dark lg:text-sm lg:font-normal lg:text-gray-300">
         <h2 className="text-[18px] text-center text-pastel-green font-mono mt-4" data-aos="zoom-in">Education</h2> {/*Main Title*/}
         
         {/*Education Card*/}

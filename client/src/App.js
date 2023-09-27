@@ -8,7 +8,6 @@ import Projects from "./Projects";
 import OtherSkills from "./OtherSkills";
 import ContactCard from "./Contact";
 import ScrollToTopButton from "./ScrollToTop";
-import Footer from "./Footer";
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
       <OtherSkills />
       <ContactCard />
       <ScrollToTopButton />
-      {/* <Footer /> */}
       </div>
   );
 }
