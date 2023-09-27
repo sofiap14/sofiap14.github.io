@@ -51,6 +51,7 @@ module.exports = {
           dark: '#0e1212',
           darkest: '#1B161C',
           purple: '#7a4cd9',
+          purpledeep: '#6d44c3',
           green: '#abd94c',
         },
       spacing: {
