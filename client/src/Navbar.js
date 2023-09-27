@@ -5,9 +5,9 @@ export default function NavBar() {
     <nav className="container flex justify-center lg:justify-end font-mono">
       <div>
         <ul className="space-x-6 md:space-x-10 lg:space-x-14">
-          <li className="inline-block">
+          {/* <li className="inline-block">
             <a href="#projects" className="text-white text-xs md:text-md lg:text-md underline underline-offset-2 decoration-gray-600 hover:decoration-transparent hover:text-white link link-underline link-underline-black ">.projects()</a>
-          </li>
+          </li> */}
           <li className="inline-block">
             <a href="#skills" className=" text-white text-xs md:text-md lg:text-md underline underline-offset-2 decoration-gray-600 hover:decoration-transparent  hover:text-white link link-underline link-underline-black">.skills()</a>
           </li>

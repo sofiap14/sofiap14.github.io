@@ -2,4 +2,9 @@
 
 .env
 
-/images
+/src/images
+
+/client/public/weather.png
+/client/public/weather1.png
+/client/public/dictionary.png
+/client/public/dictionary2.png
