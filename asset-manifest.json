@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.07fc356b.css",
-    "main.js": "/static/js/main.8872bc38.js",
+    "main.css": "/static/css/main.390042d2.css",
+    "main.js": "/static/js/main.17af543d.js",
     "static/media/linuxLogo.png": "/static/media/linuxLogo.74e10ffa1d01502d5257.png",
     "static/media/lfjc.png": "/static/media/lfjc.e857bac6dacbf3ca472d.png",
     "static/media/mysqlLogo.png": "/static/media/mysqlLogo.c2073db7c71dd084f5c7.png",
@@ -21,11 +21,11 @@
     "static/media/mongodbLogo.png": "/static/media/mongodbLogo.c964002ecef4971216d0.png",
     "static/media/imageError.png": "/static/media/imageError.f0c944e648ecc4b75f4e.png",
     "index.html": "/index.html",
-    "main.07fc356b.css.map": "/static/css/main.07fc356b.css.map",
-    "main.8872bc38.js.map": "/static/js/main.8872bc38.js.map"
+    "main.390042d2.css.map": "/static/css/main.390042d2.css.map",
+    "main.17af543d.js.map": "/static/js/main.17af543d.js.map"
   },
   "entrypoints": [
-    "static/css/main.07fc356b.css",
-    "static/js/main.8872bc38.js"
+    "static/css/main.390042d2.css",
+    "static/js/main.17af543d.js"
   ]
 }
