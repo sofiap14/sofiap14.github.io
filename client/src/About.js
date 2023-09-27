@@ -6,11 +6,11 @@ import 'aos/dist/aos.css';
 export default function About() {
 
   return (
-    <div class="container">
+    <div class="">
       <AboutSofia />
-      <div className="flex items-center justify-between" data-aos="fade-up" data-aos-duration="700">
+      <div className="container flex items-center justify-between" data-aos="fade-up" data-aos-duration="700">
         <div className="text-lg  font-mono text-white font-medium">
-          <p class="container" className="p-7 text-center">
+          <p class="container" className="p-4 text-center">
             Recent graduate with a Master's in Computer Science from <a
               href="https://gradschool.umbc.edu/"
               className="underline underline-offset-2 text-pastel-purple decoration-gray-600hover:decoration-transparent  hover:text-white link link-underline link-underline-black"

@@ -26,7 +26,7 @@ export default function OtherSkills() {
         <br />
         <h1 className="text-[16px] text-pastel-green font-mono">
           {" "}
-          Other skills{" "}
+          Other tools{" "}
         </h1>
         <ul className="grid grid-cols-3 p-6 gap-x-4 gap-y-14 text-gray-400 font-mono text-sm justify-items-center place-items-baseline">
           <li><div className="transform w-18 h-18 transition duration-200 hover:scale-150"><img src={ps} alt="Adobe Photoshop" /><span> Adobe Photoshop </span></div></li>

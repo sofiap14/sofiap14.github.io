@@ -4,7 +4,7 @@ const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const handleScroll = () => {
-    if (window.scrollY > 300) {
+    if (window.scrollY > 1500) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
@@ -23,11 +23,11 @@ const ScrollToTopButton = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed right-4 bottom-4 bg-blue-500 text-white px-4 py-2 rounded-full transition-opacity ${
-        isVisible ? "opacity-100" : "opacity-0"
+      className={`fixed right-4 bottom-4 bg-pastel-purple text-white px-3 py-0.5 transition-opacity ${
+        isVisible ? "opacity-90" : "opacity-0"
       }`}
     >
-      ↑ Top
+      ↑
     </button>
   );
 };

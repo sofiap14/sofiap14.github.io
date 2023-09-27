@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <nav className="flex justify-center pt-8 pb-10 font-mono">
+    <nav className="container flex justify-center font-mono">
       <div>
         <ul className="space-x-6">
           <li className="inline-block">
@@ -15,7 +15,7 @@ export default function NavBar() {
             <a href="#education" className="text-white text-xs">.education</a>
           </li>
           <li className="inline-block">
-            <a href="#contact" className="text-white text-xs">.contact()</a>
+            <a href="#contact-form" className="text-white text-xs">.contact()</a>
           </li>
         </ul>
       </div>

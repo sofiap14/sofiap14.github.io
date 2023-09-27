@@ -6,7 +6,7 @@ import {BiTennisBall} from 'react-icons/bi';
 export default function Hobbies() {
   return (
   <section>
-    <div className="mt-10  mb-6 font-mono" id="hobbies">
+    <div className="mt-10 mb-6 font-mono" id="hobbies">
       <h1 className="text-[16px] text-pastel-green">
         {" "}
         Also busy with..{" "}

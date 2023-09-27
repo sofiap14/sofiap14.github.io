@@ -47,7 +47,7 @@ function Projects() {
     <Element name="projects" className="container pb-28">
       <section id="projects" className="projects ">
         <div className='text-center text-white'>
-          <h2 className="text-lg text-pastel-green pb-6">
+          <h2 className="text-[18px] text-pastel-green font-mono pb-6">
             My
             <span className=""> Projects </span>
           </h2>
