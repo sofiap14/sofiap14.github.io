@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 export default function About() {
 
   return (
-    <div class="">
+    <div>
       <AboutSofia />
       <div className="container flex items-center justify-between" data-aos="fade-up" data-aos-duration="700">
         <div className="text-lg  font-mono text-white font-medium">
