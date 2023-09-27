@@ -13,8 +13,8 @@ export default function About() {
           <p class="container" className="p-4 text-center">
             Recent graduate with a Master's in Computer Science from <a
               href="https://gradschool.umbc.edu/"
-              className="underline underline-offset-2 text-pastel-purple decoration-gray-600hover:decoration-transparent  hover:text-white link link-underline link-underline-black"
-              title="University of Maryland Baltimore County"
+              className="underline underline-offset-2 text-pastel-purple decoration-gray-600 hover:decoration-transparent  hover:text-purple-800 link link-underline link-underline-black"
+              title="Graduate School UMBC"
             >
               University of Maryland, Baltimore County. <br />
             </a><br />
