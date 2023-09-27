@@ -51,39 +51,39 @@ export default function EducationCard() {
   }, []);
 
   return (
-  <div className='education pb-28'>
-    <h2 className="text-lg text-center text-pastel-green" data-aos="zoom-in">Education</h2> {/*Main Title*/}
+      <div id="education" className='education pb-28 border rounded-lg border-gray-900 shadow-xl dark:default:shadow-dark'>
+        <h2 className="text-[18px] text-center text-pastel-green font-mono mt-4" data-aos="zoom-in">Education</h2> {/*Main Title*/}
 
-    {/*Education Card*/}
-    {educationData.map((data, index) => ( 
-      <div key={index} className="container" data-aos='zoom-in'>
-        <div className="border border-gray-950 bg-gray-900 rounded-large flex">
-          <div className="p-4 w-1/3"> {/*Uni Logo, left column*/}
-            {imageLoadError ? (
-              <div className="image-placeholder"><img src={imageError} alt="Error" /></div>
-              ) : (
-              <img src={data.uniLogo} alt="University Logo" onError={handleImageError} />
-              )}
-          </div>
+        {/*Education Card*/}
+        {educationData.map((data, index) => ( 
+          <div key={index} className="container" data-aos='zoom-in'>
+            <div className="border border-gray-950 bg-gray-900 rounded-large flex">
+              <div className="p-4 w-1/3"> {/*Uni Logo, left column*/}
+                {imageLoadError ? (
+                  <div className="image-placeholder"><img src={imageError} alt="Error" /></div>
+                  ) : (
+                  <img src={data.uniLogo} alt="University Logo" onError={handleImageError} />
+                  )}
+              </div>
 
-          <div className="p-4 w-2/3 text-white"> {/*Education details, right column*/}
-            <h4>{data.year}</h4>
-            <h4 className='font-semibold'>
-            <a href={data.href} className="underline underline-offset-2 decoration-gray-600 hover:decoration-transparent text-gray-300 hover:text-white link link-underline link-underline-black"> 
-              {data.university} - {data.degree}
-            </a>
-            </h4>
-            <p className='pt-1 pb-1'>{data.gpa}</p>
-            <ul>
-              {data.details.map((detail, detailIndex) => (
-                <li key={detailIndex}>{detail}</li>
-              ))}
-            </ul>
+              <div className="p-4 w-2/3 text-white"> {/*Education details, right column*/}
+                <h4>{data.year}</h4>
+                <h4 className='font-semibold'>
+                <a href={data.href} className="underline underline-offset-2 decoration-gray-600 hover:decoration-transparent text-gray-300 hover:text-white link link-underline link-underline-black"> 
+                  {data.university} - {data.degree}
+                </a>
+                </h4>
+                <p className='pt-1 pb-1'>{data.gpa}</p>
+                <ul>
+                  {data.details.map((detail, detailIndex) => (
+                    <li key={detailIndex}>{detail}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </div>
-        </div>
+        ))}
       </div>
-    ))}
 
-  </div>
 );
 }

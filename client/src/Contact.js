@@ -7,7 +7,7 @@ export default function ContactCard() {
         id="contact-form"
         action="https://formspree.io/f/xwkdrgwv"
         method="POST"
-        className="container text-white border border-gray-950 shadow-xl dark:default:shadow-dark"
+        className="container text-white border rounded-lg border-gray-900 shadow-xl dark:default:shadow-dark"
         data-aos="zoom-in"
         data-aos-delay="300"
         >
@@ -18,7 +18,7 @@ export default function ContactCard() {
             type="text"
             id="name"
             name="name"
-            placeholder="Name"
+            placeholder="Your Name"
             required
             className="border border-gray-950 bg-gray-900 text-white p-2 rounded-lg w-full"
             />
@@ -45,13 +45,9 @@ export default function ContactCard() {
             className="border border-gray-950 bg-gray-900 text-white p-2 rounded-lg w-full"
             ></textarea>
         </div>
-
-        <button
-            type="submit"
-            className="btn-email"
-        >
-            Send
-        </button>
+        <div className="flex justify-center">
+        <button type="submit" className="border border-pastel-purple bg-pastel-purple text-white hover:bg-white hover:text-pastel-purple text-sm -my-0.5 px-2 py-0.5 rounded-full shadow hover:shadow-md outline-none focus:outline-none"> Send </button>
+        </div>
         </form>
     </section>
   );

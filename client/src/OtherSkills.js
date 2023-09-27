@@ -18,7 +18,7 @@ export default function OtherSkills() {
   return (
     <section id="skills" className="container">
     <div className="border border-gray-950 bg-gray-900 rounded-tl-full rounded-bl-full">
-      <div className="container pb-28 text-center border border-gray-900 shadow-xl dark:default:shadow-dark" data-aos="zoom-in">
+      <div className="container pb-28 text-center border border-gray-900 rounded-lg shadow-xl dark:default:shadow-dark" data-aos="zoom-in">
         <h1 className="text-[22px] text-pastel-green font-mono">
           {" "}
           More about me{" "}
