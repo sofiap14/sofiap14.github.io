@@ -37,7 +37,7 @@ function Projects() {
       title: "Weather App",
       imageSrc: "/weather1.png",
       description: "Weather web application that fetches real-time weather data from OpenWeatherMap API, displaying temperature and humidity information for any city that the user inputs. The app also integrates the Google Maps API for location visualization. Built using Node.js and Express.js, with a CSS frontend.",
-      techStack: [<img src = {nodejs} alt="Node.js" className="project-logo"/>, <img src = {express} alt="Express.js" className="project-logo p-0.5"/>, <img src = {googlemaps} alt="Google Maps API" className="project-logo"/>, <img src = {javascript} alt="JavaScript" className="project-logo,,,,,,,,,,,,,,,,,,,,"/> ],
+      techStack: [<img src = {nodejs} alt="Node.js" className="project-logo"/>, <img src = {express} alt="Express.js" className="project-logo p-0.5"/>, <img src = {googlemaps} alt="Google Maps API" className="project-logo"/>, <img src = {javascript} alt="JavaScript" className="project-logo"/> ],
       codeLink: "https://github.com/sofiap14/node-weather-app",
     },
     {
