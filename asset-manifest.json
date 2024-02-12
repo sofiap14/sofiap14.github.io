@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.140970ca.css",
-    "main.js": "/static/js/main.9ae8da2b.js",
+    "main.css": "/static/css/main.860ee808.css",
+    "main.js": "/static/js/main.2522fbfd.js",
     "static/media/linuxLogo.png": "/static/media/linuxLogo.74e10ffa1d01502d5257.png",
     "static/media/lfjc.png": "/static/media/lfjc.e857bac6dacbf3ca472d.png",
     "static/media/mysqlLogo.png": "/static/media/mysqlLogo.c2073db7c71dd084f5c7.png",
     "static/media/photoshopLogo.png": "/static/media/photoshopLogo.17d3a9a4235587ca193a.png",
     "static/media/pythonLogo.png": "/static/media/pythonLogo.d8b377f05522bf35de36.png",
+    "static/media/ubuntuLogo.png": "/static/media/ubuntuLogo.ff18980c668ef6852734.png",
     "static/media/JNTU_Hyderabad_logo.png": "/static/media/JNTU_Hyderabad_logo.bf7b8db2f5cccc994aad.png",
     "static/media/sofia-panuganti-resume.pdf": "/static/media/sofia-panuganti-resume.e0d4955b964499a7f12d.pdf",
     "static/media/expressLogo3.png": "/static/media/expressLogo3.915b89629a5fefdb6ca0.png",
@@ -23,11 +24,11 @@
     "static/media/mongodbLogo.png": "/static/media/mongodbLogo.c964002ecef4971216d0.png",
     "static/media/imageError.png": "/static/media/imageError.f0c944e648ecc4b75f4e.png",
     "index.html": "/index.html",
-    "main.140970ca.css.map": "/static/css/main.140970ca.css.map",
-    "main.9ae8da2b.js.map": "/static/js/main.9ae8da2b.js.map"
+    "main.860ee808.css.map": "/static/css/main.860ee808.css.map",
+    "main.2522fbfd.js.map": "/static/js/main.2522fbfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.140970ca.css",
-    "static/js/main.9ae8da2b.js"
+    "static/css/main.860ee808.css",
+    "static/js/main.2522fbfd.js"
   ]
 }
