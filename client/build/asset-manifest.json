@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.390042d2.css",
-    "main.js": "/static/js/main.17af543d.js",
+    "main.css": "/static/css/main.140970ca.css",
+    "main.js": "/static/js/main.9ae8da2b.js",
     "static/media/linuxLogo.png": "/static/media/linuxLogo.74e10ffa1d01502d5257.png",
     "static/media/lfjc.png": "/static/media/lfjc.e857bac6dacbf3ca472d.png",
     "static/media/mysqlLogo.png": "/static/media/mysqlLogo.c2073db7c71dd084f5c7.png",
@@ -15,17 +15,19 @@
     "static/media/javaLogo.png": "/static/media/javaLogo.5d5cffa04d820ba0644c.png",
     "static/media/aftereffectsLogo.png": "/static/media/aftereffectsLogo.eed22a76ba347203fd80.png",
     "static/media/nodejsLogo.png": "/static/media/nodejsLogo.e71346fe0fec16ec5f6e.png",
+    "static/media/googleMapsLogo.png": "/static/media/googleMapsLogo.279391ecb0c50619304a.png",
+    "static/media/auth0Logo1.png": "/static/media/auth0Logo1.e2a351fc63d0ac6990cc.png",
     "static/media/UMBCLogo.png": "/static/media/UMBCLogo.7d846bd320e31db48ed1.png",
     "static/media/cppLogo.png": "/static/media/cppLogo.1240ce157b70fb399c6c.png",
     "static/media/gitLogo.png": "/static/media/gitLogo.dfdd0989ffe0184bdd68.png",
     "static/media/mongodbLogo.png": "/static/media/mongodbLogo.c964002ecef4971216d0.png",
     "static/media/imageError.png": "/static/media/imageError.f0c944e648ecc4b75f4e.png",
     "index.html": "/index.html",
-    "main.390042d2.css.map": "/static/css/main.390042d2.css.map",
-    "main.17af543d.js.map": "/static/js/main.17af543d.js.map"
+    "main.140970ca.css.map": "/static/css/main.140970ca.css.map",
+    "main.9ae8da2b.js.map": "/static/js/main.9ae8da2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.390042d2.css",
-    "static/js/main.17af543d.js"
+    "static/css/main.140970ca.css",
+    "static/js/main.9ae8da2b.js"
   ]
 }
