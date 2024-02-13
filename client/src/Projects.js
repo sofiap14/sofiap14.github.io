@@ -4,7 +4,13 @@ import { Element } from 'react-scroll';
 import nodejs from './images/nodejsLogo.png';
 import react from './images/reactLogo.png';
 import cpp from './images/cppLogo.png';
+import python from './images/pythonLogo.png';
 import ubuntu from './images/ubuntuLogo.png';
+import jupyter from './images/jupyterLogo.png';
+import opencv from './images/opencvLogo.png';
+import numpy from './images/numpyLogo.png';
+import scikit from './images/scikitLogo.png';
+import matplot from './images/matplotlibLogo.png';
 // import html from './images/htmlLogo.png';
 // import css from './images/cssLogo.png';
 import javascript from './images/javascriptLogo.png';
@@ -22,9 +28,16 @@ function Projects() {
     { 
       title: "Virtual Garden",
       imageSrc: "/virtualgarden.png",
-      description: "I made this Garden Management web application incorporating the MERN stack. The web application has Auth0 authentication on both the frontend and backend. Users can create gardens and add plants to the gardens (perform CRUD operations seamlessly) - to virtually track and manage their home gardens. I styled the frontend using TailwindCSS. Work in progress.",
+      description: "I made this Garden Management web application incorporating the MERN stack. The web application has Auth0 authentication on both the frontend and backend. Users can create gardens and add plants to the gardens (perform CRUD operations seamlessly) - to virtually track and manage their home gardens. I styled the React frontend using TailwindCSS. Work in progress.",
       techStack: [<img src = {mongodb} alt="MongoDB" className="project-logo"/>, <img src = {express} alt="Express.js" className="project-logo p-0.5"/>, <img src = {nodejs} alt="NodeJS" className="project-logo"/>, <img src = {react} alt="ReactJS" className="project-logo"/>, <img src = {auth0} alt="Auth0" className="project-logo mt-1.5"></img> ],
       codeLink: "https://github.com/sofiap14/virtual-garden",
+    },
+    {
+      title: "Texture Synthesis: Generating arbitrarily large textures from image patches",
+      imageSrc: "/texturesynthesis.gif",
+      description: " I implemented an advanced texture synthesis algorithm using graphcut technique to seamlessly blend patches from original texture image to synthesize a larger texture image. I implemented the Ford-Fulkerson algorithm for maximum flow and minimum cut - which was a crucial component to acheiving an optimal texture synthesis. This project has applications in computer graphics, gaming and virtual environments to generate high quality textures for various in-game surfaces, terrains and objects.",
+      techStack: [<img src = {python} alt="Python" className="project-logo p-0.5 mt-0.5"/>, <img src = {jupyter} alt="Jupyter Notebook" className="project-logo p-0.5"/>, <img src = {matplot} alt="Matplot" className="project-logo py-0.5"/>, <img src = {scikit} alt="scikit-learn" className="project-logo mt-2"/>, <img src = {numpy} alt="numpy" className="project-logo"/>, <img src = {opencv} alt="opencv" className="project-logo p-0.5"/>],
+      codeLink: "https://github.com/sofiap14/graph-cut",
     },
     {
       title: "Thread-safe Banking System with C++",
