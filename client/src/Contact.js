@@ -2,9 +2,9 @@ import React from "react";
 
 export default function ContactCard() {
   return (
-    <section id="contact-form" className="container mb-32">
+    <section className="container mt-16 mb-32">
+      <div id="contact-form"></div>
         <form
-        id="contact-form"
         action="https://formspree.io/f/xwkdrgwv"
         method="POST"
         className="container text-white border rounded-lg border-gray-900 shadow-xl dark:default:shadow-dark"

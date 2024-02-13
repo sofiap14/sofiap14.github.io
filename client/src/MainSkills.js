@@ -26,7 +26,7 @@ export default function MainSkills() {
   return (
     <section id="skills">
       <div className="container pb-28" data-aos="zoom-in">
-        <h2 className="text-[18px] text-center text-pastel-green font-mono mt-4 mb-2"> Main Skills </h2>
+        <h2 className="text-[18px] text-center text-pastel-green font-mono"> Main Skills </h2>
         <ul className="md:flex md:flex-wrap md:justify-center md:space-x-9 lg:p-28 lg:flex lg:flex-wrap lg:justify-center lg:space-x-9 text-center items-center grid grid-cols-3 justify-items-center p-6 gap-x-4 gap-y-14 lg:grid-cols-7 lg:gap-x-1 lg:gap-y-20 text-gray-200 font-mono text-sm place-items-baseline">
           <li className="w-20 h-20 lg:w-24">
             <div className="transform transition duration-200 hover:scale-150">

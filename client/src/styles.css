@@ -4,6 +4,7 @@
 @tailwind utilities;
 @tailwind screens;
 
+
 @layer components {
     .link-underline {
         border-bottom-width: 0;
@@ -57,7 +58,7 @@
     }
 
     .active-section {
-      @apply shadow-md rounded-lg font-bold
+      @apply shadow-md rounded-lg font-semibold scale-105 hover:text-pastel-purple pl-1 pr-1
     }
 
     @media screen and (max-width: 768px) {
@@ -99,6 +100,4 @@
     opacity: 1;
   }
     }
-
-  
 }

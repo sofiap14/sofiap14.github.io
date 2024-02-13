@@ -67,10 +67,10 @@ export default function EducationCard() {
                   )}
               </div>
 
-              <div className="education p-4 w-2/3 text-white"> {/*Education details, right column*/}
+              <div className="education p-4 w-2/3 text-gray-350"> {/*Education details, right column*/}
                 <h4>{data.year}</h4>
                 <h4 className='font-semibold'>
-                <a href={data.href} className="underline underline-offset-2 decoration-gray-600 hover:decoration-transparent text-gray-300 hover:text-white link link-underline link-underline-black"> 
+                <a href={data.href} className="underline underline-offset-2 decoration-gray-600 hover:decoration-transparent text-gray-350 hover:text-white link link-underline link-underline-black"> 
                   {data.university} - {data.degree}
                 </a>
                 </h4>

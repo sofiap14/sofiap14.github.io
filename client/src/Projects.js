@@ -64,8 +64,8 @@ function Projects() {
   ];
 
   return (
-    <div className="bg-gray-900 rounded-e-full">
-    <Element name="projects" className="container pb-28 flex justify-center">
+    <div className="bg-gray-900 rounded-e-full pb-28">
+    <Element name="projects" className="container flex pb-10 justify-center">
       <section id="projects" className="projects ">
         <div className='text-center text-white'>
           <h2 className="text-[18px] text-pastel-green font-mono pb-6">
