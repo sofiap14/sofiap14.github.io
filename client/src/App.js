@@ -12,7 +12,6 @@ import ScrollToTopButton from "./ScrollToTop";
 function App() {
   return (
     <div className="bg-pastel pb-28">
-      <NavBar />
       <AboutMe />
       <Projects />
       <MainSkills />
@@ -20,6 +19,7 @@ function App() {
       <OtherSkills />
       <ContactCard />
       <ScrollToTopButton />
+      <NavBar />
       </div>
   );
 }

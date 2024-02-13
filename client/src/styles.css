@@ -51,6 +51,15 @@
       transition: all 0.3s ease;
     }
 
+    .purplebutton {
+      @apply ml-0.5 border border-pastel-purple bg-pastel-purple text-white hover:bg-white hover:text-pastel-purple text-sm p-0.5 rounded-lg outline-none focus:outline-none opacity-80;
+      transition: background-color 0.3s ease, color 0.3s ease; /* Add transitions for a smoother hover effect */
+    }
+
+    .active-section {
+      @apply shadow-md rounded-lg font-bold
+    }
+
     @media screen and (max-width: 768px) {
       .project-row {
         flex-direction: column; /* Stack projects vertically */

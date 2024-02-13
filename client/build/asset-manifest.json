@@ -1,34 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.860ee808.css",
-    "main.js": "/static/js/main.801ce688.js",
+    "main.css": "/static/css/main.0721a2a3.css",
+    "main.js": "/static/js/main.95e1f6e8.js",
     "static/media/linuxLogo.png": "/static/media/linuxLogo.74e10ffa1d01502d5257.png",
+    "static/media/matplotlibLogo.png": "/static/media/matplotlibLogo.1f3cb36363d0eb2c163f.png",
     "static/media/lfjc.png": "/static/media/lfjc.e857bac6dacbf3ca472d.png",
     "static/media/mysqlLogo.png": "/static/media/mysqlLogo.c2073db7c71dd084f5c7.png",
     "static/media/photoshopLogo.png": "/static/media/photoshopLogo.17d3a9a4235587ca193a.png",
     "static/media/pythonLogo.png": "/static/media/pythonLogo.d8b377f05522bf35de36.png",
     "static/media/ubuntuLogo.png": "/static/media/ubuntuLogo.ff18980c668ef6852734.png",
+    "static/media/scikitLogo.png": "/static/media/scikitLogo.bfb987221ae5f83d782b.png",
     "static/media/JNTU_Hyderabad_logo.png": "/static/media/JNTU_Hyderabad_logo.bf7b8db2f5cccc994aad.png",
     "static/media/sofia-panuganti-resume.pdf": "/static/media/sofia-panuganti-resume.e0d4955b964499a7f12d.pdf",
     "static/media/expressLogo3.png": "/static/media/expressLogo3.915b89629a5fefdb6ca0.png",
+    "static/media/jupyterLogo.png": "/static/media/jupyterLogo.e0e612fd290b62ecd44a.png",
     "static/media/javascriptLogo.png": "/static/media/javascriptLogo.4b405acaa863b1726da5.png",
     "static/media/reactLogo.png": "/static/media/reactLogo.80045de70681e3171446.png",
     "static/media/javaLogo.png": "/static/media/javaLogo.5d5cffa04d820ba0644c.png",
     "static/media/aftereffectsLogo.png": "/static/media/aftereffectsLogo.eed22a76ba347203fd80.png",
+    "static/media/opencvLogo.png": "/static/media/opencvLogo.816a0419170ad3e1581d.png",
     "static/media/nodejsLogo.png": "/static/media/nodejsLogo.e71346fe0fec16ec5f6e.png",
     "static/media/googleMapsLogo.png": "/static/media/googleMapsLogo.279391ecb0c50619304a.png",
     "static/media/auth0Logo1.png": "/static/media/auth0Logo1.e2a351fc63d0ac6990cc.png",
     "static/media/UMBCLogo.png": "/static/media/UMBCLogo.7d846bd320e31db48ed1.png",
     "static/media/cppLogo.png": "/static/media/cppLogo.1240ce157b70fb399c6c.png",
     "static/media/gitLogo.png": "/static/media/gitLogo.dfdd0989ffe0184bdd68.png",
+    "static/media/numpyLogo.png": "/static/media/numpyLogo.9eca1f7a4f09a8c742fd.png",
     "static/media/mongodbLogo.png": "/static/media/mongodbLogo.c964002ecef4971216d0.png",
     "static/media/imageError.png": "/static/media/imageError.f0c944e648ecc4b75f4e.png",
     "index.html": "/index.html",
-    "main.860ee808.css.map": "/static/css/main.860ee808.css.map",
-    "main.801ce688.js.map": "/static/js/main.801ce688.js.map"
+    "main.0721a2a3.css.map": "/static/css/main.0721a2a3.css.map",
+    "main.95e1f6e8.js.map": "/static/js/main.95e1f6e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.860ee808.css",
-    "static/js/main.801ce688.js"
+    "static/css/main.0721a2a3.css",
+    "static/js/main.95e1f6e8.js"
   ]
 }
