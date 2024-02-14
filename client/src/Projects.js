@@ -53,14 +53,14 @@ function Projects() {
       techStack: [<img src = {nodejs} alt="Node.js" className="project-logo"/>, <img src = {express} alt="Express.js" className="project-logo p-0.5"/>, <img src = {googlemaps} alt="Google Maps API" className="project-logo"/>, <img src = {javascript} alt="JavaScript" className="project-logo"/> ],
       codeLink: "https://github.com/sofiap14/node-weather-app",
     },
-    {
-      title: "Dictionary App",
-      imageSrc: "/dictionary2.png",
-      description: "Dictionary web application that uses Merriam-Webster Dictionary API for the user to explore the meaning of any word they enter. Built using Node.js and Express.js with a clean CSS frontend.",
-      techStack: [<img src = {nodejs} alt="Node.js" className="project-logo"/>, <img src = {express} alt="Express.js" className="project-logo p-0.5"/>],
-      demoLink: "https://youtu.be/eSuvpIrVjHE",
-      codeLink: "https://github.com/sofiap14/dictionary-webapp",
-    },
+    // {
+    //   title: "Dictionary App",
+    //   imageSrc: "/dictionary2.png",
+    //   description: "Dictionary web application that uses Merriam-Webster Dictionary API for the user to explore the meaning of any word they enter. Built using Node.js and Express.js with a clean CSS frontend.",
+    //   techStack: [<img src = {nodejs} alt="Node.js" className="project-logo"/>, <img src = {express} alt="Express.js" className="project-logo p-0.5"/>],
+    //   demoLink: "https://youtu.be/eSuvpIrVjHE",
+    //   codeLink: "https://github.com/sofiap14/dictionary-webapp",
+    // },
   ];
 
   return (
