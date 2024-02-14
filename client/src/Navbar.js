@@ -14,7 +14,7 @@ export default function NavBar() {
       const otherSection = document.getElementById("hobbies").offsetTop;
       const aboutSection = document.getElementById("about").offsetTop;
   
-      if (offset < projectsSection) {
+      if (offset < projectsSection - 200) {
         setActiveSection("about")
       }
       else if (offset < skillsSection - 200) {
@@ -30,6 +30,7 @@ export default function NavBar() {
       }
     };
   
+    handleScroll();
     window.addEventListener("scroll", handleScroll);
   
     return () => {
