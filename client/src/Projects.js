@@ -33,9 +33,9 @@ function Projects() {
       codeLink: "https://github.com/sofiap14/virtual-garden",
     },
     {
-      title: "Texture Synthesis: Generating arbitrarily large textures from image patches",
+      title: "Texture Synthesis",
       imageSrc: "/texturesynthesis.gif",
-      description: " I implemented an advanced texture synthesis algorithm using graphcut technique to seamlessly blend patches from original texture image to synthesize a larger texture image. I implemented the Ford-Fulkerson algorithm for maximum flow and minimum cut - which was a crucial component to acheiving an optimal texture synthesis. This project has applications in computer graphics, gaming and virtual environments to generate high quality textures for various in-game surfaces, terrains and objects.",
+      description: " I implemented an advanced texture synthesis algorithm using graphcut technique to create an output image from a sample texture image that is seamless without misfitting edges and a larger size. I implemented the Ford-Fulkerson algorithm for maximum flow and minimum cut - which was a crucial component to acheiving an optimal texture synthesis. This project has applications in computer graphics, gaming and virtual environments to generate high quality textures for various in-game surfaces, terrains and objects.",
       techStack: [<img src = {python} alt="Python" className="project-logo p-0.5 mt-0.5"/>, <img src = {jupyter} alt="Jupyter Notebook" className="project-logo p-0.5"/>, <img src = {matplot} alt="Matplot" className="project-logo py-0.5"/>, <img src = {scikit} alt="scikit-learn" className="project-logo mt-2"/>, <img src = {numpy} alt="numpy" className="project-logo"/>, <img src = {opencv} alt="opencv" className="project-logo p-0.5"/>],
       codeLink: "https://github.com/sofiap14/graph-cut",
     },
