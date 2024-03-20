@@ -25,13 +25,6 @@ import auth0 from './images/auth0Logo1.png';
 function Projects() {
 
   const projects = [
-    { 
-      title: "Virtual Garden",
-      imageSrc: "/virtualgarden.png",
-      description: "I made this Garden Management web application incorporating the MERN stack. The web application has Auth0 authentication on both the frontend and backend. Users can create gardens and add plants to the gardens (perform CRUD operations seamlessly) - to virtually track and manage their home gardens. I styled the React frontend using TailwindCSS. Work in progress.",
-      techStack: [<img src = {mongodb} alt="MongoDB" className="project-logo"/>, <img src = {express} alt="Express.js" className="project-logo p-0.5"/>, <img src = {nodejs} alt="NodeJS" className="project-logo"/>, <img src = {react} alt="ReactJS" className="project-logo"/>, <img src = {auth0} alt="Auth0" className="project-logo mt-1.5"></img> ],
-      codeLink: "https://github.com/sofiap14/virtual-garden",
-    },
     {
       title: "Texture Synthesis",
       imageSrc: "/texturesynthesis.gif",
@@ -45,6 +38,13 @@ function Projects() {
       description: "I developed a banking system where the server-side program manages customer records, handling operations like withdrawl, deposits, and balances inquiries through socket-based model. Clients interact with the server by sending transaction details with the server processing them using mutex locks to prevent race conditions. The program includes a clock for calculating transaction execution time. Built using C++ on Ubuntu.",
       techStack: [<img src = {cpp} alt="CPP" className="project-logo"/>, <img src = {ubuntu} alt="Ubuntu" className="project-logo p-0.5"/>],
       codeLink: "https://github.com/sofiap14/clientserver/",
+    },
+    { 
+      title: "Virtual Garden",
+      imageSrc: "/virtualgarden.png",
+      description: "I made this Garden Management web application incorporating the MERN stack. The web application has Auth0 authentication on both the frontend and backend. Users can create gardens and add plants to the gardens (perform CRUD operations seamlessly) - to virtually track and manage their home gardens. I styled the React frontend using TailwindCSS. Work in progress.",
+      techStack: [<img src = {mongodb} alt="MongoDB" className="project-logo"/>, <img src = {express} alt="Express.js" className="project-logo p-0.5"/>, <img src = {nodejs} alt="NodeJS" className="project-logo"/>, <img src = {react} alt="ReactJS" className="project-logo"/>, <img src = {auth0} alt="Auth0" className="project-logo mt-1.5"></img> ],
+      codeLink: "https://github.com/sofiap14/virtual-garden",
     },
     {
       title: "Weather App",
