@@ -53,7 +53,7 @@ export default function Links() {
 
         {/* DOWNLOAD MY CV */}
 
-        <li className="flex items-center">
+        {/* <li className="flex items-center">
           <span className="flex text-lg font-mono text-white">
             <span className="hidden sm:inline mr-2">Download my </span>{" "}
             <a href={resume}>
@@ -65,7 +65,7 @@ export default function Links() {
               </button>
             </a>
           </span>
-        </li>
+        </li> */}
 
       </ul>
 )}

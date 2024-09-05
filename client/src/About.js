@@ -26,7 +26,7 @@ export default function About() {
 
           <span className="text-gray-600 text-justify">
             // she / her <br />
-            // Aspiring full-stack developer
+            // Full-stack developer
           </span>
           </p>
         </div>
