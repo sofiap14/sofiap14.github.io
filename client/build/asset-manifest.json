@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5a908f15.css",
-    "main.js": "/static/js/main.156482cf.js",
+    "main.js": "/static/js/main.627e1919.js",
     "static/media/linuxLogo.png": "/static/media/linuxLogo.74e10ffa1d01502d5257.png",
     "static/media/matplotlibLogo.png": "/static/media/matplotlibLogo.1f3cb36363d0eb2c163f.png",
     "static/media/lfjc.png": "/static/media/lfjc.e857bac6dacbf3ca472d.png",
@@ -17,6 +17,7 @@
     "static/media/javascriptLogo.png": "/static/media/javascriptLogo.4b405acaa863b1726da5.png",
     "static/media/reactLogo.png": "/static/media/reactLogo.80045de70681e3171446.png",
     "static/media/javaLogo.png": "/static/media/javaLogo.5d5cffa04d820ba0644c.png",
+    "static/media/awsLogo.png": "/static/media/awsLogo.95533372dba8872a3ac8.png",
     "static/media/aftereffectsLogo.png": "/static/media/aftereffectsLogo.eed22a76ba347203fd80.png",
     "static/media/opencvLogo.png": "/static/media/opencvLogo.816a0419170ad3e1581d.png",
     "static/media/nodejsLogo.png": "/static/media/nodejsLogo.e71346fe0fec16ec5f6e.png",
@@ -30,10 +31,10 @@
     "static/media/imageError.png": "/static/media/imageError.f0c944e648ecc4b75f4e.png",
     "index.html": "/index.html",
     "main.5a908f15.css.map": "/static/css/main.5a908f15.css.map",
-    "main.156482cf.js.map": "/static/js/main.156482cf.js.map"
+    "main.627e1919.js.map": "/static/js/main.627e1919.js.map"
   },
   "entrypoints": [
     "static/css/main.5a908f15.css",
-    "static/js/main.156482cf.js"
+    "static/js/main.627e1919.js"
   ]
 }

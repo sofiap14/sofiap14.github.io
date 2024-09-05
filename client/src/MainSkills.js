@@ -14,6 +14,7 @@ import git from './images/gitLogo.png';
 import linux from './images/linuxLogo.png';
 import mongodb from './images/mongodbLogo.png';
 import mysql from './images/mysqlLogo.png';
+import aws from './images/awsLogo.png';
 
 export default function MainSkills() {
 
@@ -56,6 +57,12 @@ export default function MainSkills() {
             <div className="transform transition duration-200 hover:scale-150">
               <img src={cpp} alt="C++" />
               <span> C++ </span>
+            </div>
+          </li>
+          <li className="w-20 h-20 lg:w-24">
+            <div className="transform transition duration-200 hover:scale-150">
+              <img src={aws} alt="AWS" />
+              <span> Amazon Web Services </span>
             </div>
           </li>
           <li className="w-20 h-20 lg:w-24">
